@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 1rem = 16px, 10px / 16px = 62.5% */
+  font-size: 62.5%;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-por) {
+    font-size: 50%;
+  }
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-por) {
+    padding: 0;
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}

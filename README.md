@@ -14,7 +14,7 @@ This site consists of the following sections:</br>
 
 
 
-Built my omnifood landing page, based on <a href="#" class="footer__link">Jonas Schmedtmann</a> for
+Built my tour booking website's landing page, based on <a href="#" class="footer__link">Jonas Schmedtmann</a> for
             his online course
             <a href="#" class="footer__link"> Advanced CSS and Sass</a>.Copyright
             &copy; by Jonas Schmedtmann. You are 100% allowed to use this
